@@ -1,5 +1,6 @@
 body{
   background-color: var(--dark-10);
+  font-family: "archivo",sans-serif;
 }
 .container{
   max-width: 1216px;
