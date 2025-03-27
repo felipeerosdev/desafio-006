@@ -29,13 +29,14 @@ body{
 .hero__paragraph--padding{
   padding: 32px 0;
 }
-.hero__btn{
+.btn{
   border: none;
   padding: 10px 40px;
   background-color: var(--brand-color);
   border-radius: 4px;
   font-size: 16px;
   width: fit-content;
+  cursor: pointer;
 }
 .about{
   padding-bottom: 75px;
@@ -87,4 +88,54 @@ body{
 .media__paragraph{
   color: var(--white);
   font-size: 18px;
+}
+.projets{
+  padding: 75px 0;
+}
+.projet__title{
+  font-size: 32px;
+  color: var(--brand-color);
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.cards__wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 64px 32px
+}
+.project__img{
+  width: 592px;
+  height: 200px;
+  background-color: var(--dark-20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--dark-30);
+  border-radius: 4px;
+  margin-bottom: 32px;
+}
+.img__text{
+  font-size:24px;
+  color: var(--brand-color);
+}
+.card__title{
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: var(--white);
+  font-weight: 500;
+}
+.card__paragraph{
+  font-size: 18px;
+  color: var(--brand-color);
+  margin-bottom: 32px
+}
+.button__wrapper{
+  display: flex;
+  gap: 32px;
+}
+.btn--transparent{
+  background-color: transparent;
+  border: 2px solid var(--brand-color);
+  color: var(--brand-color);
 }
