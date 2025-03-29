@@ -1,0 +1,21 @@
+.footer{
+  padding: 40px 0;
+  background-color: var(--dark-20);
+}
+.footer__content{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__text{
+  font-size: 20px;
+  color: var(--white);
+}
+.footer__text--flex{
+  display: flex;
+  gap: 12px;
+}
+.footer__text__img{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
